@@ -1,0 +1,246 @@
+
+body{
+    padding-top: 25px;
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    background-image:url("../Images/Book_wallpaper\ 2.jpg");
+    height: 100vh;
+    min-height: 300px;
+}
+.price
+{
+    /* border:2px solid red; */
+    padding-bottom:5px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.dropdown-item{
+    /* border: 2px solid yellowgreen; */
+    margin-left:800px;
+    margin-top: 0px;
+    background-color: black;
+    color:white;
+    width:300px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-dark .navbar-brand{
+    color: yellow;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover{
+    color: greenyellow;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: brown;
+}
+.navbar-dark .nav-link:hover{
+    color: greenyellow;
+}
+.w-100{
+    height: 5vh;
+}
+
+.services .card-body i{
+    font-size: 50px;
+}
+.card .product{
+    border:2px solid blue;
+
+}
+
+#det{
+    /* border:2px solid yellow; */
+    padding-top: 3px;
+}
+.products .card{
+    border:2px solid blue;
+    height:900px;
+    width:100px;
+    padding-right: 10px;
+}
+.product-card img{
+    height: 180px;
+    width: 150px;
+}
+.name{
+    /* border:2px solid red; */
+    height:100px;
+    padding-top:10px;
+}
+
+.Login-image{
+    margin: 0 auto;
+    background-image: url("../Images/book-book-pages-education-information-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 720px;
+}
+.team .card-body i{
+    font-size: 20px;
+    /* border:2px solid blueviolet; */
+    margin-bottom: 50px;
+}
+
+.team .card-body img{
+    /* border:2px solid yellow; */
+    margin-bottom:20px;
+    height:180px;
+    width:220px;
+}
+.card-title{
+    /* border:2px solid blue; */
+    height:100px;
+
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15); 
+}
+
+.team .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15); 
+    /* border:2px solid red; */
+    height: 550px;
+    width:200px;
+}
+.card-text{
+    /* border:2px solid green; */
+    height: 120px;
+    padding-top:20px;  
+}
+.product-card{
+    /* border:2px solid blue; */
+    padding-top:70px;
+    width: 240px;
+    /* border:2px solid green; */
+    height:420px;
+}
+.product-card h6{
+    height: 45px;
+}
+.qty_form{
+    display: flex;
+}
+.dec, .inc{
+    border: 1px solid black;
+    outline: none;
+    margin: 0px;
+    text-decoration: none;
+    width: 20px;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.dec{
+    border-right: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.quantity{
+    border: 1px solid black;
+    outline: none;
+    margin: 0px;
+    width: 30px;
+    text-align: center;
+}
+.inc{
+    border-left: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#contact_btn{
+    /* border:2px solid green; */
+    padding-top:1px;
+}
+
+.lead{
+    /* border:2px solid blue; */
+    height:200px;
+}
+.lead2{
+    margin-top:10px;
+    /* border:2px solid blue; */
+    height:300px;
+}
+.card-title2{
+    /* border:2px solid red; */
+    height:100px;
+}
+.img-area img{
+    height:300px;
+    /* border:2px solid blue; */
+}
+
+.card .btn{
+    height:40px;
+    padding-top:1px;
+    /* width:10px; */
+}
+#cart_image{
+    /* height:100px; */
+    /* width:100px; */
+}
+/* .img-fluid{
+    height:500%;
+    border:2px solid blue;
+} */
+.cart{
+    /* border:2px solid red; */
+    padding:0 5px 0 5px;
+}
+
+/* *** responsive css *** */
+
+@media only screen and(max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
